@@ -126,24 +126,24 @@ body {
     }
 
     #specialties h2 {
-        text-align: center; /* Center-align the heading */
+        text-align: center; 
       }
       
       .specialties-content {
         display: flex;
-        justify-content: space-between; /* Align boxes side by side */
+        justify-content: space-between; 
       }
       
       .specialties-box {
-        flex: 0 0 calc(50% - 10px); /* Set width for boxes */
-        background-color: #f4f4f4; /* Set background color */
-        padding: 20px; /* Add padding */
-        border-radius: 8px; /* Add border radius */
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow */
+        flex: 0 0 calc(50% - 10px); 
+        background-color: #f4f4f4; 
+        padding: 20px; 
+        border-radius: 8px; 
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
       }
       
       .specialties-box p {
-        margin-top: 0; /* Remove top margin for paragraphs */
+        margin-top: 0; 
       }
       
       .specialties-box ul {
@@ -156,39 +156,39 @@ body {
       }
 
       .specialties-box {
-        flex: 0 0 calc(50% - 10px); /* Set width for boxes */
-        background-color: #f4f4f4; /* Set background color */
-        padding: 20px; /* Add padding */
-        border-radius: 8px; /* Add border radius */
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow */
-        transition: transform 0.3s, box-shadow 0.3s; /* Add transition effect */
+        flex: 0 0 calc(50% - 10px); 
+        background-color: #f4f4f4; 
+        padding: 20px;
+        border-radius: 8px; 
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s, box-shadow 0.3s; 
       }
       
       .specialties-box:hover {
-        transform: translateY(-5px); /* Move box up slightly on hover */
-        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Change box shadow on hover */
+        transform: translateY(-5px); 
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
       }
       
       .about-container {
         display: flex;
         align-items: center;
-        justify-content: center; /* Center the box horizontally */
+        justify-content: center; 
       }
       
       .about-box {
-        background-color: #f4f4f4; /* Set background color for the box */
-        padding: 20px; /* Add padding */
-        border-radius: 8px; /* Add border radius */
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow */
-        transition: transform 0.3s, box-shadow 0.3s; /* Add transition effect */
+        background-color: #f4f4f4;
+        padding: 20px; 
+        border-radius: 8px; 
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+        transition: transform 0.3s, box-shadow 0.3s; 
       }
       
       .about-box:hover {
-        transform: translateY(-5px); /* Move box up slightly on hover */
-        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Change box shadow on hover */
+        transform: translateY(-5px);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
       }
       
       .about-box h2 {
-        margin-top: 0; /* Remove default margin for h2 */
+        margin-top: 0; 
       }
       
