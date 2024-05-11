@@ -1,0 +1,194 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    display: inline-block;
+    padding: 10px 20px; 
+    margin: 0 10px; 
+    text-decoration: none;
+    color: #fff;
+    background-color: #333;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    background-color: #555; 
+  }
+  section {
+    padding: 50px 20px;
+  }
+  
+  #about, #portfolio, #contact {
+    background-color: #f4f4f4;
+    font-size: 30px;
+  }
+  
+  .container {
+    margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  background-color: #fff;
+  }
+  .container img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  form label, form textarea, form input[type="text"], form input[type="email"], form button {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  form textarea {
+    height: 100px;
+    resize: none;
+  }
+  
+  #portfolio {
+    text-align: center;
+  }
+
+  .contact-container {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center; 
+  }
+  
+  .contact-container form {
+    max-width: 170px; 
+    margin: 0 auto; 
+  }
+
+  .contact-container h2 {
+    margin-top: 0; 
+  }
+  
+  .about-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .about-img {
+    flex: 0 0 auto; 
+    margin-right: 5px; 
+  }
+  
+  .about-text {
+    flex: 1; 
+  }
+  
+  .about-img img {
+    max-width: 70%; 
+    height: auto; 
+    border-radius: 50%; 
+  }
+  
+  @media (max-width: 768px) {
+    .about-container {
+      flex-direction: column; 
+      text-align: center; 
+    }
+    .about-img {
+        margin-right: 0; 
+        margin-bottom: 20px; 
+      }
+    }
+
+    #specialties h2 {
+        text-align: center; /* Center-align the heading */
+      }
+      
+      .specialties-content {
+        display: flex;
+        justify-content: space-between; /* Align boxes side by side */
+      }
+      
+      .specialties-box {
+        flex: 0 0 calc(50% - 10px); /* Set width for boxes */
+        background-color: #f4f4f4; /* Set background color */
+        padding: 20px; /* Add padding */
+        border-radius: 8px; /* Add border radius */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow */
+      }
+      
+      .specialties-box p {
+        margin-top: 0; /* Remove top margin for paragraphs */
+      }
+      
+      .specialties-box ul {
+        list-style: none;
+        padding: 0;
+      }
+      
+      .specialties-box li {
+        margin-bottom: 10px;
+      }
+
+      .specialties-box {
+        flex: 0 0 calc(50% - 10px); /* Set width for boxes */
+        background-color: #f4f4f4; /* Set background color */
+        padding: 20px; /* Add padding */
+        border-radius: 8px; /* Add border radius */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow */
+        transition: transform 0.3s, box-shadow 0.3s; /* Add transition effect */
+      }
+      
+      .specialties-box:hover {
+        transform: translateY(-5px); /* Move box up slightly on hover */
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Change box shadow on hover */
+      }
+      
+      .about-container {
+        display: flex;
+        align-items: center;
+        justify-content: center; /* Center the box horizontally */
+      }
+      
+      .about-box {
+        background-color: #f4f4f4; /* Set background color for the box */
+        padding: 20px; /* Add padding */
+        border-radius: 8px; /* Add border radius */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow */
+        transition: transform 0.3s, box-shadow 0.3s; /* Add transition effect */
+      }
+      
+      .about-box:hover {
+        transform: translateY(-5px); /* Move box up slightly on hover */
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Change box shadow on hover */
+      }
+      
+      .about-box h2 {
+        margin-top: 0; /* Remove default margin for h2 */
+      }
+      
